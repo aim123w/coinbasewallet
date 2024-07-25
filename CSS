@@ -1,0 +1,72 @@
+/* Сброс стилей по умолчанию */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Основные стили для страницы */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #1e90ff; /* Синий фон */
+    color: #333;
+    padding: 0 15px;
+    font-style: italic; /* Курсивный шрифт */
+}
+
+header {
+    background: #00796b; /* Тёмно-зелёный цвет для заголовка */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 1.8em;
+    font-style: italic; /* Курсивный шрифт */
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #00796b; /* Тёмно-зелёный цвет для подзаголовков */
+    margin-bottom: 10px;
+    font-style: italic; /* Курсивный шрифт */
+}
+
+p {
+    margin-bottom: 15px;
+    font-style: italic; /* Курсивный шрифт */
+}
+
+strong {
+    color: #d32f2f; /* Красный цвет для выделенного текста */
+}
+
+main {
+    margin-bottom: 30px;
+}
+
+.step {
+    margin-bottom: 30px;
+    max-width: 100%; /* Убедитесь, что контейнер не ограничивает размеры изображения */
+    overflow: hidden; /* Скрыть излишки */
+}
+
+.step img {
+    width: 16.67%; /* Уменьшение ширины до одной шестой от ширины контейнера */
+    height: auto; /* Сохранение пропорций */
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    background: #00796b;
+    color: #fff;
+    border-radius: 8px;
+}
